@@ -217,7 +217,11 @@ else
 obj-y += input/sec_input/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 endif
 obj-y += fingerprint/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
+ifeq ($(CONFIG_SEC_PLATFORM_Q5Q), y)
+obj-y += firmware/cirrus_mainline/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
+else
 obj-y += firmware/cirrus/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
+endif
 obj-y += input/input_boost/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 obj-y += usb/typec/common/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 obj-y += sti/abc/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
