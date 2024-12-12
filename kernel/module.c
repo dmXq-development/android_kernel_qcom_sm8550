@@ -945,6 +945,13 @@ SYSCALL_DEFINE2(delete_module, const char __user *, name_user,
 		goto out;
 	}
 
+	if (!strncmp(name, "wlan", 4)) {
+		pr_debug("I see you trying to unload wlan.ko but it ain't "
+			"gonna happen -> fuck you userspace\n");
+		ret = -EBUSY;
+		goto out;
+	}
+
 	/* Doing init or already dying? */
 	if (mod->state != MODULE_STATE_LIVE) {
 		/* FIXME: if (force), slam module count damn the torpedoes */
