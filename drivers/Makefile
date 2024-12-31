@@ -220,6 +220,7 @@ obj-y += firmware/cirrus/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 obj-y += input/input_boost/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 obj-y += usb/typec/common/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 obj-y += sti/abc/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
+obj-y += battery/charger/pca9468_charger/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 obj-y += battery/charger/pca9481_charger/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 obj-y += vibrator/cs/cs40l26/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 obj-y += input/misc/hall/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT

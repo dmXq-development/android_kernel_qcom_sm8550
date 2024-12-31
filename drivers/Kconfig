@@ -271,6 +271,7 @@ source "drivers/firmware/cirrus/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT S
 source "drivers/input/input_boost/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 source "drivers/usb/typec/common/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 source "drivers/sti/abc/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
+source "drivers/battery/charger/pca9468_charger/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 source "drivers/battery/charger/pca9481_charger/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 source "drivers/vibrator/cs/cs40l26/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 source "drivers/input/misc/hall/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
