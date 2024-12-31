@@ -198,6 +198,7 @@ obj-y += vibrator/common/vib_info/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 obj-y += misc/drb/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 obj-y += uwb/uwb_logger/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 obj-y += sec_panel_notifier/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
+obj-y += sec_panel_notifier_v2/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 obj-y += net/dropdump/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 obj-y += usb/common/vbus_notifier/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 obj-y += battery/charger/max77705_charger/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT

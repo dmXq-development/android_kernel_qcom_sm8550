@@ -250,6 +250,7 @@ source "drivers/vibrator/common/vib_info/Kconfig" # ADDED BY LEGO AUTOMATICALLY:
 source "drivers/misc/drb/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 source "drivers/uwb/uwb_logger/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 source "drivers/sec_panel_notifier/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
+source "drivers/sec_panel_notifier_v2/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 source "drivers/net/dropdump/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 source "drivers/usb/common/vbus_notifier/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 source "drivers/battery/charger/max77705_charger/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
