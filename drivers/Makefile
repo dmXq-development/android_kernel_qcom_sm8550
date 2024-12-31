@@ -232,6 +232,7 @@ obj-y += input/misc/hall/akm/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 obj-y += optics/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 obj-y += battery/fuelgauge/max77705_fuelgauge/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 obj-y += mfd/maxim/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
+obj-y += mfd/maxim/max17333/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 obj-y += regulator/s2mpb03/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 obj-y += battery/common/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 obj-y += nfc/snvm/ # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
